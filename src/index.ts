@@ -1,6 +1,8 @@
 let x: number = 1;
 console.log("The type of x is : " + typeof(x));
 
+type SumInput = string | number;
+
 function greet(name: string): string{
   return `Hello ${name}!`
 }
